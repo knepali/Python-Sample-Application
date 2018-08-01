@@ -1,13 +1,15 @@
 {
     "access_token_url": "https://login.uber.com/oauth/token",
-    "authorize_url": "https://login.uber.com/oauth/authorize",
+    "authorize_url": "https://login.uber.com/oauth/v2/authorize?response_type=code&client_id=-7liy-EGWG6pcjwJSua6_2qFsgvoGwZC",
     "base_url": "https://login.uber.com/",
-    "scopes": ["profile", "history_lite"],
-    "name": "Sample app",
+    "scopes": ["profile", "history"],
+    "name": "kiranApp",
     "base_uber_url": "https://api.uber.com/v1/",
     "base_uber_url_v1_1" : "https://api.uber.com/v1.1/",
     "start_latitude": "37.781955",
     "start_longitude":  "-122.402367",
     "end_latitude": "37.744352",
-    "end_longitude": "-122.416743"
+    "end_longitude": "-122.416743",
+    "UBER_CLIENT_ID": "-7liy-EGWG6pcjwJSua6_2qFsgvoGwZC",
+    "UBER_CLIENT_SECRET": "b_KnC_FzeNX55YoCiGKP04D4CGw77hP6fzW6tqtl"
 }
