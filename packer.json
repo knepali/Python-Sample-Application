@@ -20,7 +20,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "KiranNode-{{timestamp}}"
+    "ami_name": "pythonAppKiran-{{timestamp}}"
   }],
 
   "provisioners": [
