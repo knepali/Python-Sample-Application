@@ -1,5 +1,6 @@
-Documentation
-==============================
+#DOCUMENTATION
+-
+
 
 What Is This?
 -------------
@@ -20,8 +21,8 @@ How To Use This
 
 Testing development environment
 -------
-1. `vagrant up`
-2. `vagrant ssh`
+1. Run `vagrant up` command to spin up vagrant machine.
+2. Run `vagrant ssh` to access shell witin vagrant machine.
 3. cd into 'app' folder where the files are synced from host to vagrant machine.
 4. Run `python app.py`.
 5. Type in configured hostsupdater aliases `database.local` on browser to run the application. 
