@@ -1,17 +1,12 @@
-Example Uber app for developers
+Documentation
 ==============================
-
-[![TravisCI](https://travis-ci.org/uber/Python-Sample-Application.svg?branch=master)](https://travis-ci.org/uber/Python-Sample-Application)
-[![Coverage Status](https://coveralls.io/repos/uber/Python-Sample-Application/badge.png)](https://coveralls.io/r/uber/Python-Sample-Application)
-
-https://developer.uber.com/
 
 What Is This?
 -------------
+This is a simple Python/Flask application intended to provide a working example of Uber's external API. The goal of these endpoints is to be simple, well-documented and to provide a base for developers to develop other applications off of.It also describes about development environment which was created using Vagrant and provisioned with Chef Cookbooks.
 
-This is a simple Python/Flask application intended to provide a working example of Uber's external API. The goal of these endpoints is to be simple, well-documented and to provide a base for developers to develop other applications off of.
-
-
+ 
+ 
 How To Use This
 ---------------
 
@@ -23,6 +18,13 @@ How To Use This
 6. Run `python app.py`
 7. Navigate to http://localhost:7000 in your browser
 
+Testing development environment
+-------
+1. `vagrant up`
+2. `vagrant ssh`
+3. cd into 'app' folder where the files are synced from host to vagrant machine.
+4. Run `python app.py`.
+5. Type in configured hostsupdater aliases `database.local` on browser to run the application. 
 
 Testing
 -------
